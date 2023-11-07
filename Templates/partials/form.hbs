@@ -1,0 +1,64 @@
+<div style="gap:10px;display: flex;flex-direction: column;align-items: center;min-width:450px;width :65%; padding: 50px 5%;"
+    class="projectList">
+    <div>
+        <h1 style="color: aliceblue;font-size: 40px;">LOG IN</h1>
+    </div>
+    <form method="post" action="/auth/login"
+        style="display: flex;flex-direction: column;align-items: center;min-width:450px;width :100%;gap 10px">
+
+        <div
+            style="color: wheat;display: flex;align-items: flex-start; gap :0px;flex-direction: column;justify-content: flex-start;width: 90%;">
+            <label for="email"
+                style="font-size: 2rem;text-transform: uppercase;font-family: baloo;cursor: pointer;">Email</label>
+            <input type="text" id="email" name="email" placeholder="email "
+                style="border:1px solid gray;outline:none; padding: 7px 20px;text-transform: capitalize; font-size: 1rem;border-radius: 2px; width :100%">
+        </div>
+        <div
+            style="color: wheat;display: flex;align-items: flex-start; gap :0px;flex-direction: column;justify-content: flex-start;width: 90%;">
+            <label for="name" style="font-size: 2rem;text-transform: uppercase;font-family: baloo;">password</label>
+            <input type="text" name="password" id="name" placeholder="Password"
+                style="border:1px solid gray;outline:none; padding: 7px 20px;text-transform: capitalize; font-size: 1rem;border-radius: 2px;width:100%;">
+        </div>
+        <div style="color: white;display: flex;width: 90%;justify-content: space-between;margin-top :15px;">
+            <p> Forgot Password? </p>
+            <p>You have not Account? Singin</p>
+        </div>
+        <input type="submit"
+            style="color: black;background-color: #a7d389;font-size: 22px;padding: 8px 20%;margin-top:20px;cursor: pointer;border-radius: 3px;">
+    </form>
+
+
+    <div style="display: flex;width: 100%;justify-content: center;margin-top: 20px;gap: 10px;align-items: center;">
+        <div style="width: 15%;margin-top: 3px;">
+            <hr>
+        </div>
+        <div style="color: white;font-size: 20px;">or</div>
+        <div style="width: 15%;margin-top: 3px;">
+            <hr>
+        </div>
+    </div>
+    <div
+        style="color: white;background-color: black; border :1px solid gray;padding: 8px ;text-align:center;margin-top:20px;cursor: pointer;border-radius: 3px;width :70%;display: flex;align-items: center;justify-content: center;gap: 10px;">
+        <img width="29" height="29" src="https://img.icons8.com/ios-filled/50/phone.png" alt="phone"
+            style="background-color: white;border-radius: 50%;padding: 3px;" />
+        <p
+            style="font-size: 14px;font-weight: 500;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif ;">
+            Sing in with Phone</p>
+    </div>
+    <div
+        style="width: 70%;display: flex;cursor: pointer; align-items: center;justify-content: center;background-color: white;margin-top: 15px;">
+
+        <button type="button" class="login-with-google-btn">
+            Sign in with Google
+        </button>
+    </div>
+
+    <div
+        style="color: black;background-color: #039be5;font-size: 22px; text-align:center;margin-top:15px;cursor: pointer;border-radius: 3px;width :70%;display: flex;align-items: center;justify-content: center;gap: 10px;padding: 5px;">
+        <img width="30" height="30" style="border: 1px solid white;border-radius: 50%;"
+            src="https://img.icons8.com/color/48/facebook-new.png" alt="facebook-new" />
+        <p
+            style="font-size: 14px;font-weight: 500;font-family:-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif ;">
+            Sing in with Facebook</p>
+    </div>
+</div>

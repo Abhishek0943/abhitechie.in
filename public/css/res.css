@@ -1,0 +1,158 @@
+@media screen and (max-width : 1000px) {
+    .timeLineBox {
+        gap: 50px;
+    }
+
+    .box {
+        width: 100%;
+        align-self: center;
+        padding: 20px 30px !important;
+    }
+
+    .cardCon {
+        gap: 5%;
+    }
+}
+
+@media screen and (max-width : 900px) {
+
+    .services {
+        gap: 30px;
+        row-gap: 50px;
+        padding: 0px 30px 40px 30px;
+    }
+
+    .serviceCard {
+        flex: 1;
+    }
+
+    .cardCon {
+        gap: 40px;
+        flex-direction: column;
+    }
+
+    .timeLineTitle {
+        padding-top: 60px;
+    }
+
+    .servicePageTop {
+        padding: 60px 20px 40px 20px;
+    }
+
+
+}
+
+@media screen and (max-width : 750px) {
+    .servicePageTop {
+        justify-content: center;
+    }
+
+}
+
+@media screen and (max-width : 600px) {
+    .main {
+        padding: 20px;
+    }
+
+    .hero_heading {
+        font-size: 40px;
+    }
+
+    .hero_sub_heading {
+        margin-bottom: 35px;
+        font-size: 20px;
+    }
+
+    .hero_para {
+        margin-bottom: 40px;
+        font-size: 18px;
+    }
+
+    .hero_btn_box {
+        flex-direction: column;
+
+    }
+
+    .servicesHeading {
+        font-size: 40px;
+    }
+
+    .hire {
+        border: 3px solid #a7d389;
+        font-size: 20px;
+    }
+
+    .fiverr {
+
+        font-size: 20px;
+    }
+
+    .timeLineTitle {
+        font-size: 40px;
+        padding-top: 40px;
+    }
+
+    .timeLineHeading {
+        font-size: 30px;
+    }
+
+    .box {
+        font-size: 20px;
+        min-width: fit-content;
+    }
+
+    .timeLineBox {
+        padding-bottom: 40px;
+    }
+
+
+
+    .projectListBox {
+        margin: 10px 0px 25px 0px;
+    }
+
+    .projectName {
+        font-size: 30px;
+    }
+
+    .projectDiscription {
+        font-size: 18px;
+
+    }
+
+    .cardCon {
+        padding: 10px 20px;
+    }
+}
+
+@media screen and (max-width : 1300px) {
+    .projects {
+        padding: 20px 20px 80px 20px;
+    }
+
+    .projectImage {
+        width: 330px;
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .project {
+        flex-direction: column;
+        gap: 0px;
+
+    }
+
+    .projectImage {
+        width: 100%;
+    }
+
+    .projectDetailsBox {
+        align-items: center;
+        margin: 0px;
+        padding: 20px 30px;
+    }
+
+    .projectDiscription {
+        text-align: center;
+    }
+}
